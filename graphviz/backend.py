@@ -161,7 +161,7 @@ def run(cmd, input=None, capture_output=False, check=False, quiet=False, **kwarg
     return out, err
 
 
-def render(engine, format, filepath, renderer=None, formatter=None, quiet=False):
+def render(engine, format, filepath, renderer=None, formatter=None, quiet=True):
     """Render file with Graphviz ``engine`` into ``format``,  return result filename.
 
     Args:
